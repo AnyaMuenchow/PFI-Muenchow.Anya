@@ -1,0 +1,105 @@
+.title {
+    border: px solid red;
+    /*--------------------*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin: auto;
+
+}
+
+.yearTitle {
+    border: px solid red;
+    font-weight: bold ;
+    text-align: center;
+    /*--------------------*/
+    font-size: 3em;
+}
+
+.calendar {
+    border: px solid blue;
+    /*--------------------*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.months {
+    border: px solid red;
+    /*--------------------*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.month {
+    border: px solid purple;
+    background-color: black;
+    /*------*/
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+    min-width: 380px;
+}
+
+.monthTitle {
+    border: px solid red;
+    /*--------------------*/
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.daysOfWeek {
+    border: px solid red;
+    /*--------------------*/
+
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.daysOfWeek div {
+    border: px solid red;
+    /*--------------------*/
+
+    text-align: right;
+    width: 35px;
+}
+
+.daysContainer {
+    border: px solid red;
+    /*--------------------*/
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.daysContainer div {
+    border: px solid red;
+    /*--------------------*/
+
+    font-family: 'Courier New', Courier, monospace;
+    width: 35px;
+    height: 26px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 9px;
+}
+
+.holiday {
+    color: black;
+    /*--------------------*/
+
+    background-color: teal;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
